@@ -1,4 +1,7 @@
 # Uber and Lyft coverage in Canada
+
+View web page here: https://aaronjutzi.github.io/uber-lyft-canada-coverage/map.html
+
 I created a web map, using leaflet, to show Uber's and Lyft's coverage zones in Canada. Users can click on the markers and then click on the link within those markers that to take them Uber's or Lyft's web page of that coverage zone. 
 
 All coverage zones were taken from https://www.uber.com/global/en/cities/ and https://lyftrideestimate.com/cities. 

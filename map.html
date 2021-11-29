@@ -1,0 +1,37 @@
+<html>
+	<head>
+	
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+		  crossorigin=""/>
+	  
+		 <!-- Make sure you put this AFTER Leaflet's CSS -->
+		 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+		   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+		   crossorigin=""></script>
+		   
+		 
+		 <style>  
+			#maptitle { height: 6%;
+						font-family: helvetica;
+						text-align: center;
+						}
+			#mapid { height: 94%; }
+			#title {text-align: center;
+					margin: 1px;}
+		 </style> 
+	</head>
+	<body>
+		<div id="maptitle">
+		<h1>&#128664 Uber and Lyft coverage in Canada &#128663</h1>
+		</div>
+		
+		<div id="mapid"></div>
+		
+		<!-- Leaflet legend source: https://github.com/zostera/leaflet-legend -->
+		<link rel="stylesheet" href="leaflet-legend.css" />
+		<script src="leaflet-legend.js"></script>
+		<script src="map.js"></script>
+
+	</body>
+</html>
